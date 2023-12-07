@@ -53,5 +53,5 @@ if st.button('Generate Line'):
     if start_word not in markov_chain:
         st.write('Word not in the Shrek script. Please try again.')
     else:
-        st.write("Then Shrek said:"
+        st.write("Then Shrek said:")
         st.write(generate_sentence(markov_chain, start_word, length))
