@@ -38,7 +38,9 @@ def generate_sentence(markov_chain, seed_word, length=50):
     
     return ' '.join(generated_text)
 
-st.title('What a Movie Line For a Movie Made By Shrek Would Look Like')
+st.image('shrek.png')
+st.title('Shrek-ify')
+st.subheader(''' :green[What a Movie Line For a Movie Made By Shrek Would Look Like] ''')
 st.write('This is a Markov Chain that was trained on the Shrek script. It generates a sentence based on the previous word.')
 
 input_text = text
